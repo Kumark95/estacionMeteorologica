@@ -1,10 +1,10 @@
 body {
 	background-image: url(http://img10.deviantart.net/edfe/i/2009/362/8/a/stormy_weather_texture_by_pareeerica.jpg);
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: cover;
 }
 
-/* NAVBAR */
+/*********************** NAVBAR *****************************/
 
 #nav {
 	margin: 0;
@@ -43,18 +43,19 @@ body {
     background-color: #4CAF50;
 }
 
- /* Map  */
+/********************** Map *********************************/
 html, body {  
 	margin: 0; 
 	padding: 0; 
+	height: 100%;
 }
 #map { 
-	height: 500px;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 	margin: auto;
 }
 
-/* presentacion*/
+/******************** Presentacion **************************/
 
 .presentacion{
 	color:white;
@@ -69,5 +70,5 @@ html, body {
 .presentacion p {
 	text-align: center;
 	font-size: 200%;
-	padding: 0 250px 0 250px;
+	padding: 0 10% 0 10%;
 }

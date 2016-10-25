@@ -1,0 +1,73 @@
+body {
+	background-image: url(http://img10.deviantart.net/edfe/i/2009/362/8/a/stormy_weather_texture_by_pareeerica.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+/* NAVBAR */
+
+#nav {
+	margin: 0;
+	padding: 0;
+	font-family: 'Proza Libre', sans-serif;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #333;
+	overflow: hidden;
+}
+
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	display: block;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none; 
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#nav ul li a:hover:not(.navActive) {
+	background-color: #111;
+}
+
+.navActive {
+    background-color: #4CAF50;
+}
+
+ /* Map  */
+html, body {  
+	margin: 0; 
+	padding: 0; 
+}
+#map { 
+	height: 500px;
+	width: 100%;
+	margin: auto;
+}
+
+/* presentacion*/
+
+.presentacion{
+	color:white;
+	font-family: 'Proza Libre', sans-serif;
+}
+ 
+.presentacion h1 {
+	font-size: : 700%;
+	text-align: center;
+}
+
+.presentacion p {
+	text-align: center;
+	font-size: 200%;
+	padding: 0 250px 0 250px;
+}

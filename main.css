@@ -1,7 +1,12 @@
 body {
-	background-image: url(http://img10.deviantart.net/edfe/i/2009/362/8/a/stormy_weather_texture_by_pareeerica.jpg);
+	/*background-image: url(http://img10.deviantart.net/edfe/i/2009/362/8/a/stormy_weather_texture_by_pareeerica.jpg);*/
+	background-image: url("backgr-2-org.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+* {
+	font-family: 'Proza Libre', sans-serif;
 }
 
 /*********************** NAVBAR *****************************/
@@ -9,7 +14,6 @@ body {
 #nav {
 	margin: 0;
 	padding: 0;
-	font-family: 'Proza Libre', sans-serif;
 }
 
 #nav ul {
@@ -59,7 +63,7 @@ html, body {
 
 .presentacion{
 	color:white;
-	font-family: 'Proza Libre', sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
  
 .presentacion h1 {
@@ -69,6 +73,6 @@ html, body {
 
 .presentacion p {
 	text-align: center;
-	font-size: 200%;
-	padding: 0 10% 0 10%;
+	font-size: 130%;
+	padding: 0 15% 0 15%;
 }

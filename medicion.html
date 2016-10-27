@@ -6,12 +6,12 @@
 	<!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
     <style>
-		thead {
+		thead, .menu-indicator {
 			text-align: center;
-			color:green;
+			color: white;
+			background-color: #084f8b;
 		}
-		tbody {color:blue;}
-		tfoot {color:red;}
+		tbody {color: #084f8b;}
 
 		table, th, td {
 		    border: 1px solid black;
@@ -37,7 +37,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<th>Icono</th>
+					<th class="menu-indicator">Icono</th>
 					<th><img src=".\weather-set\png\sunny.png" height="40" width="40"></th>
 					<th><img src=".\weather-set\png\storm.png" height="40" width="40"></th>
 					<th><img src=".\weather-set\png\moon-1.png" height="40" width="40"></th>
@@ -47,7 +47,7 @@
 					<th><img src=".\weather-set\png\sunny.png" height="40" width="40"></th>
 				</tr>
 				<tr>
-					<th>Temperatura</th>
+					<th class="menu-indicator">Temperatura</th>
 					<th>20º</th>
 					<th>18º</th>
 					<th>22º</th>
@@ -57,7 +57,7 @@
 					<th>20º</th>
 				</tr>
 				<tr>
-					<th>Humedad</th>
+					<th class="menu-indicator">Humedad</th>
 					<th>60%</th>
 					<th>65%</th>
 					<th>69%</th>
@@ -67,7 +67,7 @@
 					<th>60%</th>
 				</tr>
 				<tr>
-					<th>Presión atmosférica</th>
+					<th class="menu-indicator">Presión atmosférica</th>
 					<th>1026.41 hPa</th>
 					<th>1025.98 hPa</th>
 					<th>1032.74 hPa</th>
@@ -81,7 +81,21 @@
 
 		<h2>Hoy:</h2>
 		<ul>
-			<li></li>
+			<li>
+				<p><strong>8:00</strong></p>
+				<table>
+					<thead>
+						<th>Temperatura</th>
+						<th>Humedad</th>
+						<th>Presión atmosférica</th>
+					</thead>
+					<tbody>
+						<th>23º</th>
+						<th>60%</th>
+						<th>1027.31 hPa</th>
+					</tbody>
+				</table>
+			</li>
 			<li></li>
 		</ul>
 	</div>

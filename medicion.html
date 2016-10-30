@@ -6,12 +6,42 @@
 	<!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
     <style>
-		thead, .menu-indicator {
+    	#center-content {
+    		margin-left: 20%;
+    		margin-right: 20%;
+    		background-color: white;
+    	}
+
+	    body {
+			/*background-image: url(http://img10.deviantart.net/edfe/i/2009/362/8/a/stormy_weather_texture_by_pareeerica.jpg);*/
+			background-image: url("backgr-2-org.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		table {
+			border-collapse: collapse;
+			margin: auto;
+		}
+		.menu-indicator {
 			text-align: center;
 			color: white;
 			background-color: #084f8b;
 		}
-		tbody {color: #084f8b;}
+		.empty {
+			/* Corregir los bordes */
+			background-color: transparent;
+			border-top: none;
+			outline: none;
+			border-left: none;
+		}
+		tbody {
+			color: #084f8b;
+		}
+
+		tbody:not(.menu-indicator) {
+			background-color: white;
+		}
 
 		table, th, td {
 		    border: 1px solid black;
@@ -20,23 +50,23 @@
 	</style>
 </head>
 <body>
-	<div>
+	<div id="center-content">
 		<h1>Ultimos 7 dias:</h1>
 		<table>
 			<thead>
 				<tr>
-					<th></th>
-					<th>Lunes</th>
-					<th>Martes</th>
-					<th>Miercoles</th>
-					<th>Jueves</th>
-					<th>Viernes</th>
-					<th>Sábado</th>
-					<th>Domingo</th>
+					<th class="empty"></th>
+					<th class="menu-indicator">Lunes</th>
+					<th class="menu-indicator">Martes</th>
+					<th class="menu-indicator">Miercoles</th>
+					<th class="menu-indicator">Jueves</th>
+					<th class="menu-indicator">Viernes</th>
+					<th class="menu-indicator">Sábado</th>
+					<th class="menu-indicator">Domingo</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
+				<!--<tr>
 					<th class="menu-indicator">Icono</th>
 					<th><img src=".\weather-set\png\sunny.png" height="40" width="40"></th>
 					<th><img src=".\weather-set\png\storm.png" height="40" width="40"></th>
@@ -45,7 +75,8 @@
 					<th><img src=".\weather-set\png\raining.png" height="40" width="40"></th>
 					<th><img src=".\weather-set\png\sunny.png" height="40" width="40"></th>
 					<th><img src=".\weather-set\png\sunny.png" height="40" width="40"></th>
-				</tr>
+				</tr>-->
+
 				<tr>
 					<th class="menu-indicator">Temperatura</th>
 					<th>20º</th>
